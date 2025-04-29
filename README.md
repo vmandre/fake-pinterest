@@ -15,7 +15,8 @@ Follow these steps to create and manage a Python virtual environment on Linux.
 - [4. Install Packages Inside the Virtual Environment](#-4-install-packages-inside-the-virtual-environment)
 - [5. Deactivate the Virtual Environment](#-5-deactivate-the-virtual-environment)
 - [6. Install requirements.txt](#-6-install-requirementstxt)
-- [7. Run the app](#-7-run-the-app)
+- [7. Create Database](#-7-create-database)
+- [8. Run the app](#-8-run-the-app)
 
 ---
 
@@ -113,7 +114,16 @@ pip install flask-sqlalchemy flask-login flask-bcrypt email_validator flask flas
 
 ---
 
-## ✅ 7. Run the app
+## ✅ 7. Create Database
+
+```bash
+python3 create_database.py
+```
+
+---
+---
+
+## ✅ 8. Run the app
 
 ```bash
 python3 main.py
